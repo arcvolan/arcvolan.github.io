@@ -6,7 +6,10 @@ body{
   color: white;
   font-size: 30px;
 }
-
+.imghead {
+  padding-right: 0px;
+  padding-top: 0px;
+}
 .row:after {
      visibility: hidden;
      display: block;
@@ -26,7 +29,7 @@ body{
 
 }
 .in-header {
-  background: green;
+  background: white;
   height: 200px;
 }
 .content {
