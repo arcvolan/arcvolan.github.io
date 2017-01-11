@@ -3,80 +3,7 @@
 <head>
     <title>My landing Page</title>
     <meta charset="utf-8">
-    
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body{
-  color: white;
-  font-size: 30px;
-}
-.imghead {
-  padding-right: 0px;
-  padding-top: 0px;
-}
-.row:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.row { display: inline-block; }
-/* start commented backslash hack \*/
-* html .rowrowrow { height: 1%; }
-.row { display: block; }
-/* close commented backslash hack */
-
-.header {
-  margin-bottom: 10px;
-
-}
-.in-header {
-  background: white;
-  height: 200px;
-}
-.content {
-  width: 70%;
-  float: left;
-}
-.in-content {
-  min-height: 500px;
-  background: grey;
-}
-
-.sidebar-l {
-  width: 15%;
-  float: left;
-  padding-right: 10px;
-}
-.in-sidebar-l {
-  background: red;
-  min-height: 500px;
-}
-.sidebar-r {
-  width: 15%;
-  float: left;
-  padding-left: 10px;
-}
-.in-sidebar-r {
-  background: red;
-  min-height: 500px;
-}
-
-.footer {
-  margin-top: 10px;
-  max-height: 100px;
-}
-.in-footer {
-  background: blue;
-  min-height: 100px;
-}
-
-</style>
+    <link rel="stylesheet" href="css\style.css">
 
 </head>
 <body>
@@ -84,13 +11,22 @@ body{
   <div class="wrappper">
 
       <div class="header">
-        <div class="in-header">
+          <div class="in-header">
             <div class="imghead">
-              <a target="_self" href="index.html">
-                <img src="img\logoheader.jpg" alt="BMWlogo" width="200px" height="200px">
+              <a target="_self" href="index.html"><img src="img\logoheader.jpg" alt="BMWlogo" width="190px" height="190px"></a>
+              <div id="navmenu">
+                <ul>
+                  <li><a>Contact Us</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Cars</a></li>
+                  <li><a>Price</a></li>
+                </ul>
+              </div>
             </div>
-        </div>
-      </div>
+
+              </div>
+            </div>
+
     <div class="row">
       <div class="sidebar-l">
         <div class="in-sidebar-l">Sidebar</div>
@@ -105,6 +41,7 @@ body{
       <div class="footer">
         <div class="in-footer">FOOTER</div>
       </div>
+
 
   </div>
 

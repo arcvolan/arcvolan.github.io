@@ -26,11 +26,12 @@ body{
 
 .header {
   margin-bottom: 10px;
-
+  width: 100%;
 }
 .in-header {
   background: white;
   height: 200px;
+  width: 30%;
 }
 .content {
   width: 70%;
@@ -59,7 +60,6 @@ body{
   background: red;
   min-height: 500px;
 }
-
 .footer {
   margin-top: 10px;
   max-height: 100px;
@@ -67,4 +67,11 @@ body{
 .in-footer {
   background: blue;
   min-height: 100px;
+}
+#navmenu{
+  float: right;
+  padding-top: 10px;
+}
+ul{
+  color: black;
 }
